@@ -1,0 +1,30 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app > h1 {
+  color: #996dff;
+  margin-top: -5px;
+}
+
+#app > img {
+  width: 64px;
+}
+
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 104px;
+}
+
+#app > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 512px;
+}
+
+#app .placeholder {
+  color: #7c7c8a;
+  user-select: none;
+}
